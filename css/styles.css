@@ -1,0 +1,45 @@
+/*Стилі верхня лінія*/
+
+body {
+    width: 1600;
+    height: 2345;
+}
+
+
+
+a {
+    text-decoration: none;
+    
+}
+
+.logo-top-line {
+    padding-left: 215;
+    padding-top: 25;
+    padding-bottom: 25;
+}
+
+
+.logo-el-1 {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-el-2 {
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+
