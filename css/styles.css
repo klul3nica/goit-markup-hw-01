@@ -1,23 +1,10 @@
 /*Стилі верхня лінія*/
 
-body {
-    width: 1600;
-    height: 2345;
-}
-
-
 
 a {
     text-decoration: none;
     
 }
-
-.logo-top-line {
-    padding-left: 215;
-    padding-top: 25;
-    padding-bottom: 25;
-}
-
 
 .logo-el-1 {
     color: #2196F3;
@@ -38,6 +25,12 @@ a {
     line-height: 31px;
     letter-spacing: 0.03em;
 }
+
+.nav-menu {
+    list-style-type: none;
+}
+
+
 
 
 
