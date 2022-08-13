@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -16,7 +19,7 @@
 
     <!--Верхня лінія-->
 
-    <header>
+    <header class="top-line">
 
         
 
@@ -26,18 +29,18 @@
             
             <ul class="nav-menu">
 
-                <li class="studio-link"><a href="./index.html">Студія</a></li>
-                <li><a href="#" class="portfolio-link">Портфоліо</a></li>
+                <li ><a href="./index.html" class="studio-link">Студія</a></li>
+                <li><a href="#" class="portfolio-link" >Портфоліо</a></li>
                 <li><a href="#" class="contacts-link">Контакти</a></li>
 
             </ul>
 
         </nav>
 
-        <ul>
+        <ul class="contact-info">
 
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
 
         </ul>
 
@@ -49,10 +52,10 @@
 
         <!--Шапка-->
 
-        <section>
+        <section class="quote-section">
 
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+            <h1 class="quote">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="order-button"><span class="make-an-order">Замовити послугу</span></button>
 
         </section>
 
@@ -62,25 +65,25 @@
 
         <section>
 
-            <h2>Наші особливості при роботі</h2>
+            <h2 class="hidden">Наші особливості при роботі</h2>
 
-            <ul>
+            <ul class="features">
 
                 <li>
-                    <h3>Увага до деталей</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="f-name">Увага до деталей</h3>
+                    <p class="f-descr">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальність</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h3 class="f-name">Пунктуальність</h3>
+                    <p class="f-descr">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h3>Планування</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="f-name">Планування</h3>
+                    <p class="f-descr">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h3>Сучасні технології</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="f-name">Сучасні технології</h3>
+                    <p class="f-descr">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
 
@@ -90,8 +93,8 @@
 
         <section>
 
-            <h2>Чим ми займаємося</h2>
-            <ul>
+            <h2 class="occup-title">Чим ми займаємося</h2>
+            <ul class="occupation-list">
                 <li><img src="images/box1.jpg" alt="Кодинг за допомогою планшета та клавіатури" width="370"
                         height="294"></li>
                 <li><img src="images/box2.jpg" alt="Робота з телефоном та ноутбуком" width="370" height="294"></li>
@@ -105,30 +108,30 @@
 
         <section>
 
-            <h2>Наша команда</h2>
-            <ul>
+            <h2 class="our-team-title">Наша команда</h2>
+            <ul class="team-list">
 
-                <li>
+                <li class="member1">
                     <img src="images/im1.jpg" alt="Усміхнений хлопець в окулярах і у червоній рубашці" width="270"
                         height="260">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="member-name">Ігор Дем'яненко</h3>
+                    <p class="member-descr">Product Designer</p>
                 </li>
-                <li>
+                <li class="member2">
                     <img src="images/im2.jpg" alt="Усміхнена дівчина в окулярах" width="270" height="260">
-                    <h3>Ольга Рєпіна</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="member-name">Ольга Рєпіна</h3>
+                    <p class="member-descr">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="member3">
                     <img src="images/im3.jpg" alt="Усміхнений хлопець у голубій рубашці" width="270" height="260">
-                    <h3>Микола Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="member-name">Микола Тарасов</h3>
+                    <p class="member-descr">Marketing</p>
                 </li>
-                <li>
+                <li class="member4">
                     <img src="images/im4.jpg" alt="Усміхнений хлопець в окулярах і у чорній футболці" width="270"
                         height="260">
-                    <h3>Михайло Єрмаков</h3>
-                    <p>UI Designer</p>
+                    <h3 class="member-name">Михайло Єрмаков</h3>
+                    <p class="member-descr">UI Designer</p>
                 </li>
 
             </ul>
@@ -138,7 +141,7 @@
 
     <!--Підвал-->
 
-    <footer>
+    <footer class="basement">
 
         <a href="./index.html"><span >Web</span><span>Studio</span></a>
 
